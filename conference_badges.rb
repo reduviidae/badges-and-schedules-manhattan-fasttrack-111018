@@ -1,7 +1,9 @@
 # Write your code here.
 
+#establish array of attendees
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
+#define method to print name badge 
 def badge_maker(name)
   puts "Hello, my name is #{name}."
 end
@@ -17,4 +19,5 @@ def assign_rooms(speakers)
 end
 
 
-
+batch_badge_creator(attendees)
+assign_rooms(attendees)
