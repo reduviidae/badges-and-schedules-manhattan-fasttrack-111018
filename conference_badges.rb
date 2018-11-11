@@ -12,4 +12,6 @@ def batch_badge_creator(array)
   end
 end
 
-batch_badge_creator(attendees)
+def assign_rooms(speakers)
+  (1..7).each do |room|
+    speakers.
