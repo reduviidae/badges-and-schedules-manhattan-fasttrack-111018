@@ -20,7 +20,7 @@ def assign_rooms(speakers)
   speakers.each_with_index { |item, index| p "#{item} is assigned to room #{index + 1}." }
 end
 
-
+#the printer method executes the batch_badge_creator and assign_rooms methods using the same array of attendees
 def printer(array)
   batch_badge_creator(array)
   assign_rooms(array)
